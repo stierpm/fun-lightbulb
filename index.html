@@ -2,16 +2,18 @@
 <html>
 <head>
   <title>Lightbulb Switch</title>
-  <link type="text/css" href="css/style.css" />
+  <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+  <div class="container">
+    <img id="lightbulb" src="images/lightbulb-off.svg" />
+    
+    <h1>Turn the lightbulb on and off</h1>
 
-  <h1>Turn the lightbulb on and off</h1>
-
-  <img id="lightbulb" src="images/lightbulb-off.svg" />
-
-  <button onclick="lightbulbOn()">Turn on lightbulb</button>
-  <button onclick="lightbulbOff()">Turn off lightbulb</button>
+    <button onclick="lightbulbOn()">Turn on lightbulb</button>
+    <button onclick="lightbulbOff()">Turn off lightbulb</button>
+  </div>
 
   <script type="text/javascript" src="js/script.js"></script>
 </body>
